@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Registration</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <form>
+    <div class="garey"><fieldset>
+        <div class="gr"><legend >User Registration Form</legend></div>
+        <label >Username:
+            <input type="text" size="10px" id ="User" ></label></br>
+            <label >Password:
+                    <input type="password" id ="ind" size="10px"; ></label></br>
+                    <label >Date of Birth:
+                            <input type="date" size="10px" id ="date"></label></br>
+                            <label >Web URL:
+                                    <input type="url" id="url"   ></label></br>
+                                    <label >Address:
+                                            <input type="address" id = "add" ></label></br>
+                                            <label >City:
+                                                    <input type="city" id ="city"></label></br>
+                                                    <label >State:
+                                                            <input type="text" id ="state" ></label></br>
+                                                            <label  >Zip:
+                                                                    <input type="text" id = "zip" ></label></br>
+                          <p><label  >
+                              Magazine: <select name="magazine" id="magazine" multiple="multiple" >
+                                  <option value="News week" selected="selected">News week</option>
+                                  <option value="Time">Time</option>
+                                  <option value="Fortune">Fortune</option>
+                                  <option value="Tv Guide">Tv Guide</option>
+                              </select>
+                          </label></p>      
+                          <p><label >
+                              Additional Comment: <br> <textarea name="comments" id="" cols="45" rows="8" ></textarea>
+                          </label></p>     
+                          <p><label >Upload Your Profile Picture:
+                              <label><input type="file" name= "picture"></label> <br>
+                              <label><input type="submit" value ="Upload" id = "but"></label>
+                          </label>                  
+                          <p><button id = "send">Send Your Order</button></p>            
+    </fieldset></div>
+</form>
+</body>
+</html>

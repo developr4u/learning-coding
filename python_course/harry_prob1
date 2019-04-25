@@ -1,0 +1,16 @@
+result = 0
+while True:
+    
+    user_input = input("enter price and q for quit")
+    
+
+    if user_input != 'q':
+        result = float(user_input) + result
+        print(f"total {result}")
+
+    else:
+        print(f"Thanks for Comming Your Net Bill is {result}") 
+        break   
+
+        
+

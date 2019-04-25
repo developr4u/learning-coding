@@ -1,0 +1,44 @@
+.gr{
+     width: 45%;
+     height: 50%;
+     background-color: green;
+}
+.garey{
+    background-color: lightgray;
+}
+#but{
+    background-color: green;
+    margin: 0% 0% 0% 20%;
+}
+#ind{
+    margin: 0% 0% 1% 3%;
+}
+#User{
+    margin: 1% 0% 1% 3%;
+}
+#url{
+    margin: 1% 0% 1% 2%;
+    
+}
+#add{
+    margin: 0% 0% 1% 3%;
+}
+#city{
+    margin: 0% 0% 1% 5%;
+}
+#state{
+    margin: 0% 0% 1% 4%;
+}
+#zip{
+    margin: 0% 0% 0% 5%;
+}
+#magazine{
+    margin: 0% 0% 0% 3%;
+   
+}
+#send{
+    background-color: green;
+}
+#date{
+    margin: 0% 0% 0% 1%;
+}

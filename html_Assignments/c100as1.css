@@ -1,0 +1,22 @@
+body{
+   font-weight: 200%;
+   font-family: 'Lato', sans-serif;
+}
+h1,h2,h3{
+    color: rgb(15, 58, 136);
+}
+.appetizer{
+    background-color: lightgray;
+    width: 100%;
+    height: 30px;
+    }
+
+#spicy{
+    text-indent: 50px;
+}
+#paise{
+    font-size: 150%;
+}
+#lal{
+    color: red;
+}
